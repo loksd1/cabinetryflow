@@ -1,0 +1,79 @@
+# --- Editors / OS ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+.DS_Store
+Thumbs.db
+
+# --- Environment / local config ---
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# --- Logs / runtime files ---
+logs/
+*.log
+*.out
+*.err
+*.pid
+*.pid.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Node / frontend dependencies and build output ---
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.bun/
+dist/
+dist-ssr/
+coverage/
+frontend/openapi.json
+
+# --- Playwright / test artifacts ---
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+
+# --- Python / backend caches and virtualenvs ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.py,cover
+.python-version
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+.venv/
+venv/
+env/
+ENV/
+
+# --- Project runtime / generated local assets ---
+backend/app/uploads/
